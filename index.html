@@ -3,35 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная страница</title>
-    <style>
-        body { font-family: Arial, sans-serif; }
-        nav { margin-bottom: 20px; }
-        a { margin: 0 15px; }
-        header, section { margin: 30px 0; }
-    </style>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Добро пожаловать на наш сайт</h1>
-        <p>Здесь вы найдёте информацию о эмоциях и нервной системе.</p>
+        <h1>Что если ваши эмоции — не слабость, а особенность нервной системы?</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О ПРЛ</a></li>
+                <li><a href="#myths">Мифы</a></li>
+                <li><a href="#diagnosis">Диагностика</a></li>
+                <li><a href="#psychology">Психология</a></li>
+                <li><a href="#neurobiology">Нейробиология</a></li>
+                <li><a href="#resources">Ресурсы</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="#for-yourself">Для себя</a>
-        <a href="#for-loved-ones">Для близких</a>
-        <a href="#for-specialists">Для специалистов</a>
-    </nav>
-    <section id="for-yourself">
-        <h2>Для себя</h2>
-        <p>Советы и рекомендации по управлению эмоциями и поддержанию психического здоровья.</p>
-    </section>
-    <section id="for-loved-ones">
-        <h2>Для близких</h2>
-        <p>Как поддерживать своих близких в трудные времена.</p>
-    </section>
-    <section id="for-specialists">
-        <h2>Для специалистов</h2>
-        <p>Ресурсы и исследования для профессионалов в области психологии и медицины.</p>
-    </section>
+    <main>
+        <section id="about">
+            <h2>О ПРЛ</h2>
+            <p>Здесь будет информация о пограничном расстройстве личности.</p>
+        </section>
+        <section id="myths">
+            <h2>Мифы</h2>
+            <p>Разоблачение мифов вокруг ПРЛ.</p>
+        </section>
+        <section id="diagnosis">
+            <h2>Диагностика</h2>
+            <p>Как происходит диагностика ПРЛ.</p>
+        </section>
+        <section id="psychology">
+            <h2>Психология</h2>
+            <p>Психологические аспекты и терапия.</p>
+        </section>
+        <section id="neurobiology">
+            <h2>Нейробиология</h2>
+            <p>Нейробиологические основы.</p>
+        </section>
+        <section id="resources">
+            <h2>Ресурсы</h2>
+            <p>Полезные ресурсы и ссылки.</p>
+        </section>
+        <section class="audiences">
+            <div class="card">
+                <h3>Для себя</h3>
+                <p>Советы и ресурсы для саморазвития.</p>
+            </div>
+            <div class="card">
+                <h3>Для близких</h3>
+                <p>Как поддержать людей с ПРЛ.</p>
+            </div>
+            <div class="card">
+                <h3>Для специалистов</h3>
+                <p>Рекомендуемая литература и информация.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Все права защищены.</p>
+    </footer>
 </body>
 </html>
